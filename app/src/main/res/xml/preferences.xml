@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="@string/account_preferences">
+
+        <PreferenceScreen
+            android:title="@string/myruns1_data"
+            android:summary="@string/user_profile"
+            >
+            <intent android:action="your.action.string">
+            </intent>
+        </PreferenceScreen>
+        <CheckBoxPreference
+            android:key="Privacy Setting"
+            android:title="@string/privacy_setting"
+            android:summary="@string/anonymous_records"
+           />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/additional_settings">
+        <ListPreference
+            android:key="Unit Preference"
+            android:title="@string/unit_preference"
+            android:summary="@string/select_units"
+            android:dialogTitle="@string/unit_preferences"
+            android:entries="@array/distance_units"
+            android:entryValues="@array/distance_units"/>
+
+        <EditTextPreference
+            android:key="Comments"
+            android:title="@string/comments"
+            android:summary="@string/comments_hint"
+            android:dialogTitle="@string/comments"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/misc">
+        <PreferenceScreen
+            android:key="Webpage"
+            android:title="@string/webpage"
+            android:summary="@string/webpage_url">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.google.com"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

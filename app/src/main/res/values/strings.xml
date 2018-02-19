@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">MyRuns3</string>
+
+    <!--MyRuns3-->
+    <string name="start_input_type">Input Type</string>
+    <string name="start_activity_type">Activity Type</string>
+    <string name="info_input_type">Manual Entry</string>
+    <string name="info_date_time">Date and Time</string>
+    <string name="info_duration">Duration</string>
+    <string name="info_distance">Distance</string>
+    <string name="info_calories">Calories</string>
+    <string name="info_heartrate">Heart Rate</string>
+    <string name="menu_delete">Delete</string>
+
+    <!--Myruns 1 and 2-->
+
+    <string name="action_settings">Settings</string>
+    <string name="profile_photo">Profile photo:</string>
+    <string name="profile_change_button">Change Profile Image</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Your Name</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Your Email</string>
+    <string name="phone">Phone</string>
+    <string name="phone_hint">Your Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="prof_class">Class</string>
+    <string name="class_hint">eg. 2012</string>
+    <string name="major">Major</string>
+    <string name="major_hint">Your major</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="shared_pref">my_runs1_shared_preferences</string>
+    <string name="shared_pref_name">profile_name</string>
+    <string name="shared_pref_email">profile_email</string>
+    <string name="shared_pref_phone">profile_phone</string>
+    <string name="shared_pref_gender">profile_gender</string>
+    <string name="shared_pref_class">profile_class</string>
+    <string name="shared_pref_major">profile_major</string>
+    <!-- Used xd's code to an extent for permission and other generic stuff which is common in any android app-->
+    <string name="profile_photo_file_name">profile_photo.png</string>
+    <string name="dialog_fragment_tag_photo_picker">dialog_fragment_photo_picker</string>
+    <string name="ui_profile_photo_content_description">Your profile photo:</string>
+    <string name="iv_hint_select_image">"Select image for the profile"</string>
+    <string-array name="pick_image_hint">
+        <item>Click here to open camera</item>
+        <item>Select from gallery</item>
+    </string-array>
+
+    <!--Myruns2 strings-->
+    <string name="input_type">Input Type</string>
+    <string name="activity_type">Activity Type</string>
+    <string-array name="drop_down_list">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="drop_down_list_activities">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Settings tab strings in order-->
+    <string name="account_preferences">Account Preferences</string>
+    <string name="privacy_setting">Privacy Setting</string>
+    <string name="anonymous_records">Posting your records anonymously</string>
+    <string name="myruns1_data">Name, Email, Class, etc</string>
+    <string name="user_profile">User Profile</string>
+    <string name="additional_settings">Additional Settings</string>
+    <string name="unit_preference">Unit Preference</string>
+    <string name="select_units">Select the units</string>
+    <string name="unit_preferences">Unit Preference</string>
+    <string-array name="distance_units">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+    <string name="comments">Comments</string>
+    <string name="comments_hint">Please enter your comments</string>
+    <string name="misc">Misc.</string>
+    <string name="webpage">Webpage</string>
+    <string name="webpage_url">www.google.com</string>
+</resources>
+
+
+
+
+
+
